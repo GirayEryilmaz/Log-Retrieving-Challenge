@@ -143,7 +143,7 @@ if __name__ == '__main__':
             
             print(sf.read((end-start)%chunk_size),end='')
             
-            # the last line is always missed, due the nature of binarySearch, "end" is where the last log starts not ends
+            # the last line is always missed, due to the nature of binarySearch, "end" is where the last log starts not ends
             print(sf.readline(), end='')
             
     else:
@@ -176,7 +176,7 @@ if __name__ == '__main__':
                 print(ef.read(chunk_size),end='')
             
             print(ef.read(end%chunk_size),end='')
-            # the last line is always missed, due the nature of binarySearch, "end" is where the last log starts not ends
+            # the last line is always missed, due to the nature of binarySearch, "end" is where the last log starts not ends
             print(ef.readline(),end='')
 
 
